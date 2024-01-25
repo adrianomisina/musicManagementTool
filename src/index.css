@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  .bg-custom-color {
+    background-color: #F8F3F9;
+  }
+
+  .bg-secondary-custom-color {
+    background-color: #E9E2E9;
+  }
+
+  .bg-tertiary-custom-color {
+    background-color: #EAEAEA;
+  }
+
+  ::-webkit-scrollbar {
+  width: 6px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a1a1a1; /* Cor do polegar da barra de rolagem */
+  border-radius: 6px; /* Borda arredondada do polegar */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fff; /* Cor da trilha da barra de rolagem */
+}
+
